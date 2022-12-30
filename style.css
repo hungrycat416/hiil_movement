@@ -102,10 +102,9 @@ h6 {
 
 .box-container {
   display: flex;
-  flex-direction: row;
-  /* flex-wrap: wrap; */
-  /* text-align: center; */
-  /* background-color: #f5f3f4; */
+  flex-wrap: wrap; 
+  text-align: center; 
+  /* background-color: #f5f3f4;  */
   justify-content: center;
 }
 
@@ -164,7 +163,8 @@ h6 {
 h3 {
   font-size: 15px;
   color: #9b9b94;
-  margin: 10px 0px 0px;
+  margin-bottom: 10px;
+  margin-top: 20px;
   text-align: center;
   font-family: sans-serif
 }
