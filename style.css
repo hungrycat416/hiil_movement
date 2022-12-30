@@ -90,7 +90,7 @@ h6 {
   background: transparent;
 }
 
- 
+
 
 .subheader {
   margin: auto;
@@ -102,8 +102,8 @@ h6 {
 
 .box-container {
   display: flex;
-  flex-wrap: wrap; 
-  text-align: center; 
+  flex-wrap: wrap;
+  text-align: center;
   /* background-color: #f5f3f4;  */
   justify-content: center;
 }
@@ -117,20 +117,53 @@ h6 {
   justify-content: center;
 
 }
-.footer{
+
+.footer {
+  background-color: #F6EEE5;
+  text-align: center;
+  /* background-color: DarkSalmon; */
+}
+
+.fa:hover {
+  opacity: 0.9;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background:radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+  color: white;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 40px;
+  width: 60px;
+  text-decoration: none;
+}
+
+.about {
   background-color: #F6EEE5;
 }
-.about{
-  background-color: #F6EEE5;
-}
-.inspired{
+
+.inspired {
   background-color: #FDF8F3;
 
 }
-.episodes{
+
+.episodes {
   background-color: #FDF8F3;
 
 }
+
 .col-lg-5 {
   margin: auto !important;
 }
@@ -170,12 +203,11 @@ h3 {
 }
 
 h4 {
-  font-size: 26px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  margin: 10px 0px 0px;
+  font-size: 15px;
+  color: #9b9b94;
+  margin-top: 20px;
   text-align: center;
-  margin-left: 10px;
-  /* text-align: center; */
+  font-family: sans-serif
 }
 
 b {
@@ -210,21 +242,23 @@ b {
 
 .body {
   margin: 0;
-  margin-top:10px;
+  margin-top: 10px;
   padding: 0;
   height: 70vh;
   display: flex;
   justify-content: center;
   align-items: center;
   font-family: "Roboto", sans-serif;
-  
+
 }
-.achievements{
+
+.achievements {
   background-color: #F6EEE5;
 
 }
-input{
-	display: none;
+
+input {
+  display: none;
 }
 
 .book {
