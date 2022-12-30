@@ -1,0 +1,432 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.navbar {
+  background-color: #BABCBF;
+  margin-bottom: 0px;
+}
+
+#head-nav {
+  color: #6A6A6C;
+  font-size: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-family: 'Baskervville', serif;
+}
+
+.nav-item a:hover {
+  color: brown;
+
+  border-bottom: 3px solid brown;
+}
+
+.navbar a:focus {
+  background: #F5F0ED;
+}
+
+.parallax {
+  min-height: 600px;
+  padding: 20px;
+  background: url(background_image.jpg) center fixed;
+  background-size: cover;
+  height: calc(100vh - 60px);
+  ;
+}
+
+.projectParallax {
+  min-height: 450px;
+  background: transparent;
+  padding: 20px;
+}
+
+/* .paratext {
+  padding-bottom: 5%;
+} */
+
+.para1 {
+  z-index: 2;
+  position: relative;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Lilita One';
+  color: #58360F;
+  text-align: center;
+  padding-top: 40px;
+  position: absolute;
+  font-size: 60px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h2 {
+  font-family: 'IBM Plex Sans Hebrew';
+  color: #58360F;
+  font-weight: bold;
+  text-align: center;
+  padding-left: 40px;
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+
+h6 {
+  /* font-family: 'Lilita One'; */
+  color: black;
+  /* text-align: center; */
+  padding-top: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 20px;
+  transform: translate(-50%, 50%);
+
+}
+
+.icon {
+  width: 10%;
+}
+
+h10 {
+  font-size: 6px;
+}
+
+.outline {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  background: transparent;
+}
+
+ 
+
+.subheader {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+  /* width: 50%; */
+}
+
+.box-container {
+  display: flex;
+  flex-direction: row;
+  /* flex-wrap: wrap; */
+  /* text-align: center; */
+  /* background-color: #f5f3f4; */
+  justify-content: center;
+}
+
+.inspo-container {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  /* margin-left: 10px;
+  margin-right: 10px; */
+  justify-content: center;
+
+}
+.about{
+  background-color: #F6EEE5;
+}
+.inspired{
+  background-color: #FDF8F3;
+
+}
+.col-lg-5 {
+  margin: auto !important;
+}
+
+.col-sm-3 {
+  margin: auto !important;
+}
+
+.image-container>img {
+  /* height: 200px; */
+  width: 80%;
+  /* margin-top: 10px; */
+  /* height: auto; */
+
+
+}
+
+.posters>img {
+  /* height: 200px; */
+  width: 80%;
+  box-shadow: 0px 4px 4px 0px black;
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  /* height: auto; */
+
+
+}
+
+h3 {
+  font-size: 15px;
+  color: #9b9b94;
+  margin: 10px 0px 0px;
+  text-align: center;
+  font-family: sans-serif
+}
+
+h4 {
+  font-size: 26px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 10px 0px 0px;
+  text-align: center;
+  margin-left: 10px;
+  /* text-align: center; */
+}
+
+b {
+  font-family: 'Baskervville', serif;
+  margin: 10px 0px 0px;
+  color: black;
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 70px;
+}
+
+
+
+/* port-lligat-sans-regular - latin */
+@font-face {
+  font-family: 'Port Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/port-lligat-sans-v18-latin/port-lligat-sans-v18-latin-regular.eot');
+  /* IE9 Compat Modes */
+  src: local('Port Sans') url('./fonts/port-lligat-sans-v18-latin/port-lligat-sans-v18-latin-regular.eot?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */
+    url('./fonts/port-lligat-sans-v18-latin/port-lligat-sans-v18-latin-regular.woff2') format('woff2'),
+    /* Super Modern Browsers */
+    url('./fonts/port-lligat-sans-v18-latin/port-lligat-sans-v18-latin-regular.woff') format('woff'),
+    /* Modern Browsers */
+    url('./fonts/port-lligat-sans-v18-latin/port-lligat-sans-v18-latin-regular.ttf') format('truetype'),
+    /* Safari, Android, iOS */
+    url('./fonts/port-lligat-sans-v18-latin/port-lligat-sans-v18-latin-regular.svg#PortLligatSans') format('svg');
+  /* Legacy iOS */
+}
+
+.body {
+  margin: 0;
+  margin-top:10px;
+  padding: 0;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  
+}
+.achievements{
+  background-color: #F6EEE5;
+
+}
+input{
+	display: none;
+}
+
+.book {
+  display: flex;
+}
+
+
+#cover {
+  width: 250px;
+  height: 400px;
+}
+
+.flip-book {
+  width: 250px;
+  height: 400px;
+  position: relative;
+  perspective: 1500px;
+}
+
+.flip {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform-origin: left;
+  transform-style: preserve-3d;
+  transform: rotateY(0deg);
+  transition: .5s;
+  color: #000;
+}
+
+p {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.front {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  box-sizing: border-box;
+  padding: 0 13px;
+  box-shadow: inset 20px 0 50px rgba(0, 0, 0, 0.5) 0 2px 5px rgba(0, 0, 0, .5);
+}
+
+.back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  transform: rotateY(180deg);
+  backface-visibility: hidden;
+  background: #000;
+}
+
+.next-btn {
+  position: absolute;
+  bottom: 13px;
+  right: 13px;
+  cursor: pointer;
+  color: #000;
+}
+
+.back-btn {
+  position: absolute;
+  bottom: 13px;
+  right: 13px;
+  cursor: pointer;
+  color: #fff;
+}
+
+#p1 {
+  z-index: 3;
+}
+
+#p2 {
+  z-index: 2;
+}
+
+#p3 {
+  z-index: 1;
+}
+
+#c1:checked~.flip-book #p1 {
+  transform: rotateY(-180deg);
+  z-index: 1;
+}
+
+#c2:checked~.flip-book #p2 {
+  transform: rotateY(-180deg);
+  z-index: 2;
+}
+
+#c3:checked~.flip-book #p3 {
+  transform: rotateY(-180deg);
+  z-index: 3;
+}
+
+/* concert-one-regular - latin */
+@font-face {
+  font-family: 'Concert One';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/concert-one-v17-latin/concert-one-v17-latin-regular.eot');
+  /* IE9 Compat Modes */
+  src: local('Concert One'),
+    url('./fonts/concert-one-v17-latin/concert-one-v17-latin-regular.eot?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */
+    url('./fonts/concert-one-v17-latin/concert-one-v17-latin-regular.woff2') format('woff2'),
+    /* Super Modern Browsers */
+    url('./fonts/concert-one-v17-latin/concert-one-v17-latin-regular.woff') format('woff'),
+    /* Modern Browsers */
+    url('./fonts/concert-one-v17-latin/concert-one-v17-latin-regular.ttf') format('truetype'),
+    /* Safari, Android, iOS */
+    url('./fonts/concert-one-v17-latin/concert-one-v17-latin-regular.svg') format('svg');
+  /* Legacy iOS */
+}
+
+/* lilita-one-regular - latin */
+@font-face {
+  font-family: 'Lilita One';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/lilita-one-v13-latin/lilita-one-v13-latin-regular.eot');
+  /* IE9 Compat Modes */
+  src: local('Lilita One'),
+    url('./fonts/lilita-one-v13-latin/lilita-one-v13-latin-regular.eot?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */
+    url('./fonts/lilita-one-v13-latin/lilita-one-v13-latin-regular.woff2') format('woff2'),
+    /* Super Modern Browsers */
+    url('./fonts/lilita-one-v13-latin/lilita-one-v13-latin-regular.woff') format('woff'),
+    /* Modern Browsers */
+    url('./fonts/lilita-one-v13-latin/lilita-one-v13-latin-regular.ttf') format('truetype'),
+    /* Safari, Android, iOS */
+    url('./fonts/lilita-one-v13-latin/lilita-one-v13-latin-regular.svg') format('svg');
+  /* Legacy iOS */
+}
+
+/* ibm-plex-sans-hebrew-regular - latin */
+@font-face {
+  font-family: 'IBM Plex Sans Hebrew';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/ibm-plex-sans-hebrew-v10-latin/ibm-plex-sans-hebrew-v10-latin-regular.eot');
+  /* IE9 Compat Modes */
+  src: local('IBM Plex Sans Hebrew'),
+    url('./fonts/ibm-plex-sans-hebrew-v10-latin/ibm-plex-sans-hebrew-v10-latin-regular.eot?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */
+    url('./fonts/ibm-plex-sans-hebrew-v10-latin/ibm-plex-sans-hebrew-v10-latin-regular.woff2') format('woff2'),
+    /* Super Modern Browsers */
+    url('./fonts/ibm-plex-sans-hebrew-v10-latin/ibm-plex-sans-hebrew-v10-latin-regular.woff') format('woff'),
+    /* Modern Browsers */
+    url('./fonts/ibm-plex-sans-hebrew-v10-latin/ibm-plex-sans-hebrew-v10-latin-regular.ttf') format('truetype'),
+    /* Safari, Android, iOS */
+    url('./fonts/ibm-plex-sans-hebrew-v10-latin/ibm-plex-sans-hebrew-v10-latin-regular.svg') format('svg');
+  /* Legacy iOS */
+}
+
+/* gurajada-regular - latin */
+@font-face {
+  font-family: 'Gurajada';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/gurajada-v15-latin/gurajada-v15-latin-regular.eot');
+  /* IE9 Compat Modes */
+  src: local('Gurajada'),
+    url('./fonts/gurajada-v15-latin/gurajada-v15-latin-regular.eot?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */
+    url('./fonts/gurajada-v15-latin/gurajada-v15-latin-regular.woff2') format('woff2'),
+    /* Super Modern Browsers */
+    url('./fonts/gurajada-v15-latin/gurajada-v15-latin-regular.woff') format('woff'),
+    /* Modern Browsers */
+    url('./fonts/gurajada-v15-latin/gurajada-v15-latin-regular.ttf') format('truetype'),
+    /* Safari, Android, iOS */
+    url('./fonts/gurajada-v15-latin/gurajada-v15-latin-regular.svg') format('svg');
+  /* Legacy iOS */
+}
+
+/* nunito-regular - latin */
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/nunito-v25-latin-regular.eot');
+  /* IE9 Compat Modes */
+  src: local(''),
+    url('./fonts/nunito-v25-latin-regular.eot?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */
+    url('./fonts/nunito-v25-latin-regular.woff2') format('woff2'),
+    /* Super Modern Browsers */
+    url('./fonts/nunito-v25-latin-regular.woff') format('woff'),
+    /* Modern Browsers */
+    url('../fonts/nunito-v25-latin-regular.ttf') format('truetype'),
+    /* Safari, Android, iOS */
+    url('../fonts/nunito-v25-latin-regular.svg#Nunito') format('svg');
+  /* Legacy iOS */
+}
