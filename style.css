@@ -443,7 +443,7 @@ responsive carousel
 }
 .card-image{
   position: relative;
-  width: 150px;
+  width: 50%;
   /* border-radius: 50%; */
   background: #FFF;
   padding: 3px;
