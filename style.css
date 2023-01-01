@@ -55,6 +55,10 @@ h1 {
   color:#58360F;
   -webkit-font-smoothing: antialiased;
 }
+.values-text{
+  font-size:20px;
+  text-align:center;
+}
 
 .first-text {
   font-family: 'IBM Plex Sans Hebrew';
@@ -180,6 +184,11 @@ h6 {
   text-align: center;
 
 }
+.values-p{
+  text-align: center;
+  margin-top:20px;
+
+}
 .mission{
   background-color:#FFF6D5;
   /* margin-left:50px;
@@ -293,7 +302,7 @@ b {
 }
 
 .achievements {
-  background-color: #FFF6D5;
+  background-color: brown;
 
 }
 
@@ -457,7 +466,7 @@ responsive carousel
   top: 0;
   height: 100%;
   width: 100%;
-  background-color:#FFF6D5;
+  background-color:brown;
   border-radius: 25px 25px 0 25px;
 }
 .overlay::before,
@@ -468,7 +477,7 @@ responsive carousel
   bottom: -40px;
   height: 40px;
   width: 40px;
-  background-color: #FFF6D5;
+  background-color: brown;
 }
 .overlay::after{
   border-radius: 0 25px 0 0;
@@ -487,7 +496,7 @@ responsive carousel
   width: 100%; */
   /* object-fit: cover; */
   border-radius: 50%;
-  border: 4px solid #FFF6D5;
+  border: 4px solid brown;
 }
 .name{
   font-size: 18px;
