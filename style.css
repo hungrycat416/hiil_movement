@@ -253,7 +253,6 @@ b {
   margin-top: 10px;
   padding: 0;
   height: 70vh;
-  width:50vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -262,13 +261,7 @@ b {
 }
 
 .achievements {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  /* width: 350px;
-  height: 200px; */
-  font-family: "Roboto", sans-serif;
-  background-color:#4a1010;
+  background-color: brown;
 
 }
 
@@ -281,10 +274,10 @@ input {
 }
 
 
-/* #cover {
-  width: 80%;
-  height: 80%;
-} */
+#cover {
+  width: 250px;
+  height: 400px;
+}
 
 .flip-book {
   width: 250px;
