@@ -25,7 +25,7 @@
 .parallax {
   min-height: 600px;
   padding: 20px;
-  background: url(background_image.jpg);
+  background: url(background_image.jpeg);
   background-size: cover;
   height: calc(100vh - 60px);
   ;
@@ -44,18 +44,19 @@
 }
 
 h1 {
-  font-family: 'Lilita One';
-  color: #58360F;
+  margin-top: 30px;
+  font-size: 70px;
   text-align: center;
-  padding-top: 40px;
-  position: absolute;
-  font-size: 60px;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: 'Steelfish Rg', 'helvetica neue',
+           helvetica, arial, sans-serif;
+  font-weight: 800;
+  color:#58360F;
+  -webkit-font-smoothing: antialiased;
 }
 
-h2 {
+.first-text {
   font-family: 'IBM Plex Sans Hebrew';
   color: #58360F;
   font-weight: bold;
@@ -63,6 +64,10 @@ h2 {
   padding-left: 40px;
   padding-top: 50px;
   padding-bottom: 10px;
+}
+.icons{
+  width:20%;
+  text-align:center;
 }
 
 h6 {
@@ -100,7 +105,7 @@ h6 {
   /* width: 50%; */
 }
 
-.box-container {
+.founder-container {
   display: flex;
   flex-wrap: wrap;
   text-align: center;
@@ -149,10 +154,38 @@ h6 {
   text-decoration: none;
   margin: 5px 5px;
 }
+.mission-inner-part > p{
+  font-size: 3.125vw;
+  color:#6e3c3a;
+  text-align: center;
+}
+.mission-inner-part{
+  display:flex;
+  justify-content: center;
+  align-items: center;
 
-/* .about {
-  background-color: #F6EEE5;
-} */
+}
+.mission-inner-part{
+  margin-left:50px;
+  margin-right:50px
+}
+.values-flex{
+  margin-left:50px;
+  margin-right:50px
+
+}
+.values-inner-part{
+  margin-left:50px;
+  margin-right:50px;
+  text-align: center;
+
+}
+.mission{
+  background-color:#FFF6D5;
+  /* margin-left:50px;
+  margin-right:50px */
+
+}
 
 .slide-flex {
   min-height: 100vh;
@@ -260,7 +293,7 @@ b {
 }
 
 .achievements {
-  background-color: brown;
+  background-color: #FFF6D5;
 
 }
 
@@ -299,8 +332,9 @@ input {
 }
 
 p {
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 20px;
+  margin: 0px 0px 15px;
+  font-family:sans-serif;
 }
 
 .front {
@@ -423,7 +457,7 @@ responsive carousel
   top: 0;
   height: 100%;
   width: 100%;
-  background-color:brown;
+  background-color:#FFF6D5;
   border-radius: 25px 25px 0 25px;
 }
 .overlay::before,
@@ -434,7 +468,7 @@ responsive carousel
   bottom: -40px;
   height: 40px;
   width: 40px;
-  background-color: brown;
+  background-color: #FFF6D5;
 }
 .overlay::after{
   border-radius: 0 25px 0 0;
@@ -453,7 +487,7 @@ responsive carousel
   width: 100%; */
   /* object-fit: cover; */
   border-radius: 50%;
-  border: 4px solid brown;
+  border: 4px solid #FFF6D5;
 }
 .name{
   font-size: 18px;
