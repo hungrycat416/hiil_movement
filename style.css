@@ -260,10 +260,14 @@ b {
 
 }
 
-/* .achievements {
+.achievements {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
   background-color: #F6EEE5;
 
-} */
+}
 
 input {
   display: none;
@@ -492,15 +496,6 @@ responsive carousel
 .swiper-pagination-bullet-active{
   background-color: brown;
 }
-
-/* @media screen and (max-width: 768px) {
-  .slide-content{
-    margin: 0 10px;
-  }
-  .swiper-navBtn{
-    display: none;
-  }
-} */
 
 /* concert-one-regular - latin */
 @font-face {
