@@ -80,7 +80,7 @@ h1 {
   -webkit-font-smoothing: antialiased;
 }
 
-h2 {
+.subheader-text {
   font-family: 'IBM Plex Sans Hebrew';
   color: #58360F;
   font-weight: bold;
@@ -100,23 +100,6 @@ h4 {
   font-size: 18px;
   font-weight: 500;
   color: #333;
-}
-h5 {
-  font-size: 18px;
-  color: #ffffff;
-  text-transform: capitalize;
-  margin-bottom: 35px;
-  text-align: center;
-  font-weight: 500;
-  position: relative;
-}
-
- h5::before {
-  content: '';
-  position: absolute;
-  left: 0;
-  bottom: -10px;
-  text-decoration-line: overline;
 }
 
 .icons {
@@ -530,6 +513,24 @@ ul {
 .footer-col {
   width: 25%;
   padding: 0 15px;
+}
+
+.footer-col h4 {
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  text-align: center;
+  font-weight: 500;
+  position: relative;
+}
+
+.footer-col h4::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  text-decoration-line: overline;
 }
 
 .footer-col ul li:not(:last-child) {
