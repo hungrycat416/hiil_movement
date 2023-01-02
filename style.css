@@ -564,7 +564,7 @@ ul{
 	list-style: none;
 }
 .footer{
-	background-color: #24262b;
+	background-color: #FFAE00;
     padding: 70px 0;
 }
 .footer-col{
@@ -573,10 +573,10 @@ ul{
 }
 .footer-col h4{
 	font-size: 18px;
-	color: #ffffff;
+	color: #8d4c07;
 	text-transform: capitalize;
 	margin-bottom: 35px;
-	font-weight: 500;
+	font-weight:bold;
 	position: relative;
 }
 .footer-col h4::before{
@@ -595,7 +595,7 @@ ul{
 	color: #ffffff;
 	text-decoration: none;
 	font-weight: 300;
-	color: #bbbbbb;
+	color: #8d4c07;
 	display: block;
 	transition: all 0.3s ease;
 }
