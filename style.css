@@ -34,7 +34,7 @@
   background: url(images/faces_of_women.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   background-position: center center;
 }
 
