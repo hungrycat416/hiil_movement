@@ -67,8 +67,7 @@ h1 {
   color: #58360F;
   font-weight: bold;
   text-align: center;
-  padding-left: 40px;
-  padding-top: 50px;
+  padding-top: 30px;
   padding-bottom: 10px;
 }
 
@@ -91,7 +90,7 @@ h6 {
 }
 
 .icon {
-  width: 10%;
+  width: 15%;
 }
 
 .outline {
@@ -115,10 +114,10 @@ h6 {
 .founder-container {
   display: flex;
   flex-wrap: wrap;
-  text-align: center;
   margin-left:10px;
   margin-right:10px;
   background-color:#FDF8F3;
+  
   /* background-color: #f5f3f4;  */
   justify-content: center;
 }
@@ -232,6 +231,7 @@ h6 {
 
 .col-lg-5 {
   margin: auto !important;
+  
 }
 
 .col-sm-3 {
@@ -240,10 +240,13 @@ h6 {
 
 .image-container>img {
   /* height: 200px; */
-  width: 80%;
+  width: 100%;
   /* margin-top: 10px; */
   /* height: auto; */
 
+}
+.image-container{
+  margin-top: 10px;
 
 }
 
@@ -260,7 +263,7 @@ h6 {
 }
 
 h3 {
-  font-size: 15px;
+  font-size: 20px;
   color: #8d4c07;
   margin-bottom: 10px;
   margin-top: 20px;
@@ -269,7 +272,7 @@ h3 {
 }
 
 h4 {
-  font-size: 15px;
+  font-size: 20px;
   color: #9b9b94;
   margin-top: 20px;
   text-align: center;
