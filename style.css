@@ -5,11 +5,11 @@
 }
 
 #head-nav {
-  color: #8d4c07;
+  color: black;
   font-size: 20px;
   padding-left: 30px;
   padding-right: 30px;
-  font-weight:bold;
+  font-weight: bold;
   font-family: 'Baskervville', serif;
 }
 
@@ -25,13 +25,23 @@
 }
 
 .parallax {
-  min-height: 600px;
-  padding: 20px;
-  /* background: url(background_image.jpeg); */
-  /* background-size: cover; */
-  background-color: #8d4c07;
-  height: calc(100vh - 60px);
-  ;
+  min-height: 90vh;
+  margin: 0;
+  padding: 0;
+  background: url(background_image.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: center center;
+}
+
+@media (max-width: 768px) {
+  .parallax {
+    min-height: 50vh;
+  }
+
+  h1 {
+    font-size: calc(1.525rem + 3.3vw);
+  }
 }
 
 .projectParallax {
@@ -92,10 +102,11 @@ h6 {
 }
 
 .icon {
-  width:30%;
+  width: 30%;
 }
-.icon-footer{
-  width:100%;
+
+.icon-footer {
+  width: 100%;
 
 }
 
@@ -120,10 +131,10 @@ h6 {
 .founder-container {
   display: flex;
   flex-wrap: wrap;
-  margin-left:10px;
-  margin-right:10px;
-  background-color:#FDF8F3;
-  
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: #FDF8F3;
+
   /* background-color: #f5f3f4;  */
   justify-content: center;
 }
@@ -138,11 +149,7 @@ h6 {
 
 }
 
-.footer {
-  background-color: #8d4c07;
-  text-align: center;
-  /* background-color: DarkSalmon; */
-}
+
 
 /* .fa:hover {
   opacity: 0.9;
@@ -232,12 +239,12 @@ h6 {
 
 .bio-p {
   text-align: left;
-  font-size:20px;
+  font-size: 20px;
 }
 
 .col-lg-5 {
   margin: auto !important;
-  
+
 }
 
 .col-sm-3 {
@@ -251,7 +258,8 @@ h6 {
   /* height: auto; */
 
 }
-.image-container{
+
+.image-container {
   margin-top: 10px;
 
 }
@@ -555,80 +563,93 @@ responsive carousel
     url('../fonts/nunito-v25-latin-regular.svg#Nunito') format('svg');
   /* Legacy iOS */
 }
+
 /* footer */
-.container{
-	max-width: 1170px;
-	margin:auto;
+.container {
+  max-width: 1170px;
+  margin: auto;
 }
-ul{
-	list-style: none;
+
+ul {
+  list-style: none;
 }
-.footer{
-	background-color: #352208;
-    padding: 70px 0;
+
+.footer {
+  background-color: #352208;
+  padding: 70px 0;
+  text-align: center;
 }
-.footer-col{
-   width: 25%;
-   padding: 0 15px;
+
+.footer-col {
+  width: 25%;
+  padding: 0 15px;
 }
-.footer-col h4{
-	font-size: 18px;
-	color: #ffffff;
-	text-transform: capitalize;
-	margin-bottom: 35px;
-	font-weight: 500;
-	position: relative;
+
+.footer-col h4 {
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;
 }
-.footer-col h4::before{
-	content: '';
-	position: absolute;
-	left:0;
-	bottom: -10px;
-	text-decoration-line: overline;
+
+.footer-col h4::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  text-decoration-line: overline;
 }
-.footer-col ul li:not(:last-child){
-	margin-bottom: 10px;
+
+.footer-col ul li:not(:last-child) {
+  margin-bottom: 10px;
 }
-.footer-col ul li a{
-	font-size: 16px;
-	text-transform: capitalize;
-	color: #ffffff;
-	text-decoration: none;
-	font-weight: 300;
-	color: #bbbbbb;
-	display: block;
-	transition: all 0.3s ease;
+
+.footer-col ul li a {
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 300;
+  color: #bbbbbb;
+  display: block;
+  transition: all 0.3s ease;
 }
-.footer-col ul li a:hover{
-	color: #ffffff;
-	padding-left: 8px;
+
+.footer-col ul li a:hover {
+  color: #ffffff;
+  padding-left: 8px;
 }
-.footer-col .social-links a{
-	display: inline-block;
-	height: 40px;
-	width: 40px;
-	/* background-color: rgba(255,255,255,0.2); */
-	margin:10 10px 10px 10;
-	text-align: center;
-	line-height: 40px;
-	border-radius: 50%;
-	color: #ffffff;
-	transition: all 0.5s ease;
+
+.footer-col .social-links a {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  /* background-color: rgba(255,255,255,0.2); */
+  margin: 10 10px 10px 10;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #ffffff;
+  transition: all 0.5s ease;
 }
-.footer-col .social-links a:hover{
-	color: #24262b;
-	background-color: #ffffff;
+
+.footer-col .social-links a:hover {
+  color: #24262b;
+  background-color: #ffffff;
 }
 
 /*responsive*/
-@media(max-width: 767px){
-  .footer-col{
+@media(max-width: 767px) {
+  .footer-col {
     width: 50%;
     margin-bottom: 30px;
+  }
 }
-}
-@media(max-width: 574px){
-  .footer-col{
+
+@media(max-width: 574px) {
+  .footer-col {
     width: 100%;
-}
+  }
 }
