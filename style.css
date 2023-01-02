@@ -116,6 +116,8 @@ h6 {
   display: flex;
   flex-wrap: wrap;
   text-align: center;
+  margin-left:10px;
+  margin-right:10px;
   background-color:#FDF8F3;
   /* background-color: #f5f3f4;  */
   justify-content: center;
