@@ -23,9 +23,9 @@
   border-bottom: 3px solid brown;
 }
 
-.navbar a:focus {
+/* .navbar a:focus {
   background: #F5F0ED;
-}
+} */
 
 .parallax {
   min-height: 90vh;
