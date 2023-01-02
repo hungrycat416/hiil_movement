@@ -80,13 +80,43 @@ h1 {
   -webkit-font-smoothing: antialiased;
 }
 
-.subheader-text {
+h2 {
   font-family: 'IBM Plex Sans Hebrew';
   color: #58360F;
   font-weight: bold;
   text-align: center;
   padding-top: 30px;
   padding-bottom: 10px;
+}
+h3 {
+  font-size: 20px;
+  color: #8d4c07;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  text-align: center;
+  font-family: sans-serif
+}
+h4 {
+  font-size: 18px;
+  font-weight: 500;
+  color: #333;
+}
+h5 {
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  text-align: center;
+  font-weight: 500;
+  position: relative;
+}
+
+ h5::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  text-decoration-line: overline;
 }
 
 .icons {
@@ -107,22 +137,6 @@ h6 {
 
 }
 
-h3 {
-  font-size: 20px;
-  color: #8d4c07;
-  margin-bottom: 10px;
-  margin-top: 20px;
-  text-align: center;
-  font-family: sans-serif
-}
-
-h4 {
-  font-size: 20px;
-  color: #9b9b94;
-  margin-top: 20px;
-  text-align: center;
-  font-family: sans-serif
-}
 
 .icon {
   width: 30%;
@@ -209,13 +223,13 @@ h4 {
   margin: auto !important;
 }
 
-.about-image-container>img {
-  /* padding: 10px 10px 20px 10px;
+/* .about-image-container>img {
+  padding: 10px 10px 20px 10px;
   border: 1px solid #BFBFBF;
   background-color: white;
   box-shadow: 5px 5px 2.5px #aaaaaa;
-  margin-bottom:20px; */
-}
+  margin-bottom:20px;
+} */
 
 /*styling highlights section*/
 .inspired-section {
@@ -234,7 +248,6 @@ h4 {
   width: 100%;
   padding: 40px 0;
 }
-
 .slide-content {
   margin: 0 40px;
   overflow: hidden;
@@ -307,11 +320,7 @@ h4 {
   border: 4px solid #8d4c07;
 }
 
-.name {
-  font-size: 18px;
-  font-weight: 500;
-  color: #333;
-}
+
 
 .description {
   font-size: 14px;
@@ -521,24 +530,6 @@ ul {
 .footer-col {
   width: 25%;
   padding: 0 15px;
-}
-
-.footer-col h4 {
-  font-size: 18px;
-  color: #ffffff;
-  text-transform: capitalize;
-  margin-bottom: 35px;
-  text-align: center;
-  font-weight: 500;
-  position: relative;
-}
-
-.footer-col h4::before {
-  content: '';
-  position: absolute;
-  left: 0;
-  bottom: -10px;
-  text-decoration-line: overline;
 }
 
 .footer-col ul li:not(:last-child) {
