@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 /* Google Fonts - Poppins */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
 /*navbar stuff*/
 .navbar {
   margin-bottom: 0px;
@@ -30,22 +31,23 @@
   min-height: 90vh;
   margin: 0;
   padding: 20px;
-  background: url(background_image.jpg);
+  background: url(images/faces_of_women.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: center center;
+  background-position: center center;
 }
 
 @media (max-width: 768px) {
   .parallax {
-    min-height: 50vh;
+    min-height: 40vh;
   }
 
   h1 {
     font-size: calc(1.525rem + 3.3vw);
     font-size: 10vw;
   }
-  h6{
+
+  h6 {
     font-size: calc(1.525rem + 3.3vw);
 
   }
@@ -62,6 +64,7 @@
   position: relative;
   text-align: center;
 }
+
 /*headers*/
 
 h1 {
@@ -103,6 +106,7 @@ h6 {
   transform: translate(-50%, 50%);
 
 }
+
 h3 {
   font-size: 20px;
   color: #8d4c07;
@@ -160,8 +164,8 @@ h4 {
   align-items: center;
   margin-left: 50px;
   margin-right: 50px
-
 }
+
 .mission {
   background-color: #FFF6D5;
 
@@ -179,6 +183,7 @@ h4 {
   margin-top: 20px;
 
 }
+
 .values-text {
   font-size: 20px;
   text-align: center;
@@ -193,32 +198,37 @@ h4 {
   background-color: #FDF8F3;
   justify-content: center;
 }
+
 .bio-p {
   text-align: left;
   font-family: 'Poppins', sans-serif;
   font-size: 20px;
 }
+
 .col-lg-5 {
   margin: auto !important;
 }
+
 .about-image-container>img {
-  padding: 10px 10px 20px 10px;
+  /* padding: 10px 10px 20px 10px;
   border: 1px solid #BFBFBF;
   background-color: white;
   box-shadow: 5px 5px 2.5px #aaaaaa;
-  margin-bottom:20px;
+  margin-bottom:20px; */
 }
 
 /*styling highlights section*/
 .inspired-section {
   background-color: #FFF6D5;
 }
+
 .slide-flex {
   min-height: 70vh;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 .slide-container {
   max-width: 1120px;
   width: 100%;
@@ -339,10 +349,30 @@ h4 {
 .swiper-pagination-bullet-active {
   background-color: brown;
 }
-/*styling the vidoes section*/
-.episodes {
-  background-color: #FDF8F3;
 
+/*styling the vidoes section*/
+.video-wrapper{
+  width:70%;
+}
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%; /* - 16:9 aspect ratio (most common) */
+  /* padding-bottom: 62.5%; - 16:10 aspect ratio */
+  /* padding-bottom: 75%; - 4:3 aspect ratio */
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+  border: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 
@@ -369,6 +399,7 @@ h4 {
     url('./fonts/port-lligat-sans-v18-latin/port-lligat-sans-v18-latin-regular.svg#PortLligatSans') format('svg');
   /* Legacy iOS */
 }
+
 /* concert-one-regular - latin */
 @font-face {
   font-family: 'Concert One';
@@ -530,7 +561,7 @@ ul {
 }
 
 .footer-col .social-links a {
-  background-color: rgba(255,255,255,0.2);
+  background-color: rgba(255, 255, 255, 0.2);
   margin: 10 10px 10px 10;
   text-align: center;
   line-height: 40px;
