@@ -28,7 +28,7 @@
 } */
 
 .parallax {
-  min-height: 100vh;
+  min-height: 90vh;
   margin: 0;
   padding: 20px;
   background: url(images/faces_of_women.jpg);
