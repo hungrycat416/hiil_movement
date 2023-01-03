@@ -81,13 +81,14 @@ h1 {
   font-weight: bold; */
 }
 
-h2 {
+.subheader-text {
   font-family: 'IBM Plex Sans Hebrew';
   color: #58360F;
   font-weight: bold;
   text-align: center;
-  padding-top: 30px;
+  padding-top: 20px;
   padding-bottom: 10px;
+  font-size:40px;
 }
 h3 {
   font-size: 20px;
@@ -151,9 +152,10 @@ h6 {
 
 /*styling mission section*/
 .mission-inner-part>p {
-  font-size: 3vw;
+  font-size: 2.5vw;
   color: #6e3c3a;
   text-align: center;
+  font-family: 'Port Sans';
 }
 
 .mission-inner-part {
